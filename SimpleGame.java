@@ -125,7 +125,7 @@ public class SimpleGame extends GameCore{
   }
   
   public void createSprite(){
-    bgImage = resourceManager.loadImage("background4.jpg");
+    bgImage = resourceManager.loadImage("largeGrassMap.png");
 	
 	// screen size = 16 x 12
 	renderer = new TileMapRenderer();
